@@ -177,10 +177,12 @@ img {
 }
 
 .our-team {
+    padding: 120px 0;
     width: 100%; height: 732px;
     background-color: #F4F4FD;;
 }
 .our-team-h {
+    margin-bottom: 72px;
     text-align: center;
     font-size: 36px;
     margin: 0; 
@@ -192,6 +194,7 @@ img {
     color: #2e2f42;
 }
 .our-team-ul {
+    gap: 24px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -201,15 +204,19 @@ img {
     justify-content: center;
 }
 .our-team-li {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
     height: 380px;
-    margin: 11px;
     list-style-type: none;
     display: block;
     background-color: #fff;
     text-align: center;
 }
+.name-position {
+    padding: 32px 0;
+}
 .our-team-li-h {
-    margin: 25px 0 7px;
+    text-align: center;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -217,7 +224,6 @@ img {
     color: #2e2f42;
 }
 .our-team-li-p {
-    margin: 7px 0;
     line-height: 1.5;
     font-size: 16px;
     color: #434455;
