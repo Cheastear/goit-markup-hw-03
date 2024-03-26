@@ -291,15 +291,16 @@ img {
 }
 
 .footer {
+    padding: 100px 0;
     background-color: #2E2F42;
     color: #f4f4fd;
-    padding: 100px;
 }
 .logotwo {
-    color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-p {
-    width: 264px;
+    max-width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
