@@ -5,6 +5,9 @@ body {
     color: #434455;
 }
 
+img {
+    display: block;
+}
 
 header {
     background-color:#E7E9FC;
