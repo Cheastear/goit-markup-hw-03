@@ -9,15 +9,19 @@ img {
     display: block;
 }
 
-header {
-    background-color:#E7E9FC;
+.header {
+    width: 100%;
+    border-bottom: 1px solid #e7e9fc
+}
+.header-inline {
+    margin: 0 auto;
+    padding: 0 15px;;
+    width: 1158px;
+    background-color: #E7E9FC;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    padding: 24px 0;
-    width: 100%;
 }
-
 nav {
     height: 24px;
     display: flex;
