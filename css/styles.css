@@ -152,10 +152,10 @@ img {
     justify-content: center;
 }
 .advantages-li {
-    flex-basis: calc((100% - 72px) / 4);
     list-style-type: none;
     display: block;
     padding: 12px;
+    flex-basis: calc((100% - 72px) / 4)
 }
 .advantages-li-h {
     margin-bottom: 8px;
@@ -173,9 +173,7 @@ img {
 }
 
 .our-team {
-    padding: 120px 156px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
     width: 100%;
     background-color: #F4F4FD;;
 }
@@ -257,6 +255,7 @@ img {
     justify-content: center;
 }
 .our-portfolio-li {
+    width: calc((100% - 48px) / 3);
     list-style-type: none;
     font-weight: 500;
     font-size: 20px;
@@ -265,7 +264,6 @@ img {
     border-width: 0px, 1px, 1px, 1px;
     border-style: solid;
     border-color: #E7E9FC;
-    width: calc((100% - 48px) / 3);
 }
 .name-type {
     padding: 32px 16px;
