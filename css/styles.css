@@ -16,9 +16,11 @@ img {
     height: 1px;
     margin: -1px;
     padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .header {
@@ -152,10 +154,10 @@ img {
     justify-content: center;
 }
 .advantages-li {
+    flex-basis: calc((100% - 72px) / 4);
     list-style-type: none;
     display: block;
     padding: 12px;
-    flex-basis: calc((100% - 72px) / 4)
 }
 .advantages-li-h {
     margin-bottom: 8px;
@@ -173,7 +175,9 @@ img {
 }
 
 .our-team {
-    padding: 120px 0;
+    padding: 120px 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     width: 100%;
     background-color: #F4F4FD;;
 }
