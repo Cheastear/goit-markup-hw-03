@@ -154,7 +154,7 @@ img {
     justify-content: center;
 }
 .advantages-li {
-    width: calc((100% - 72px) / 4);
+    width: 342px;
     list-style-type: none;
     display: block;
     padding: 12px;
