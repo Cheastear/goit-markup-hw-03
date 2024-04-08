@@ -259,7 +259,7 @@ img {
     justify-content: center;
 }
 .our-portfolio-li {
-    flex-basis: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
     list-style-type: none;
     font-weight: 500;
     font-size: 20px;
