@@ -10,6 +10,15 @@ img {
     display: block;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5, p {
+    margin: 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -25,7 +34,7 @@ img {
 .container {
     width: 1158px;
 
-    padding: 0 16px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -35,10 +44,12 @@ img {
     width: 100%;
 }
 .header-inline {
+    align-items: center;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
+    justify-content: space-between;
 }
 .navigation {
     display: flex;
@@ -69,6 +80,7 @@ img {
     list-style-type: none;
 }
 .nav-li-a {
+    display: block;
     padding: 24px 0;
     color: #2E2F42;
     font-size: 16px;
@@ -163,7 +175,6 @@ img {
     width: calc((100% - 72px) / 4);
     list-style-type: none;
     display: block;
-    padding: 12px;
 }
 .advantages-li-h {
     margin-bottom: 8px;
@@ -252,7 +263,6 @@ img {
 .our-portfolio-h {
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
@@ -271,9 +281,6 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    border-width: 0px, 1px, 1px, 1px;
-    border-style: solid;
-    border-color: #E7E9FC;
 }
 .name-type {
     padding: 32px 16px;
@@ -289,7 +296,6 @@ img {
     margin-bottom: 8px;
 }
 .our-portfolio-p {
-    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
